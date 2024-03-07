@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "esp32-googlestt",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp"
+		}
+	}
+}
