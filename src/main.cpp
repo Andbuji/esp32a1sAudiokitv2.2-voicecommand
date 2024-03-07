@@ -10,7 +10,7 @@ AudioKit kit;
 const int BUFFER_SIZE = 1024;
 uint8_t buffer[BUFFER_SIZE];
 
-// IR Sensor acting as WakeUp Button
+// WakeUp Button
 #define button 19
 
 // RGB LEDs for status indication
@@ -18,13 +18,13 @@ uint8_t buffer[BUFFER_SIZE];
 #define led_2 18
 #define led_3 23
 
-const char *WIFI_SSID = "IoTLab";
-const char *WIFI_PASS = "iotm@ch1";
+const char *WIFI_SSID = "YOUR-SSID";
+const char *WIFI_PASS = "YOUR-PASSWORD";
 // MQTT
-const char *mqtt_server = "192.168.200.246";
+const char *mqtt_server = "YOUR-SERVER";
 const int mqtt_port = 1883;
-const char *mqtt_user = "mqttiotlab6";
-const char *mqtt_pass = "iotm@ch1";
+const char *mqtt_user = "YOUR-USER";
+const char *mqtt_pass = "YOUR-PASSWORD";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
