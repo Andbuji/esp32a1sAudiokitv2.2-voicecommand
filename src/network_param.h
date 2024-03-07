@@ -36,6 +36,6 @@ const char* root_ca=
 "d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=\n"
 "-----END CERTIFICATE-----\n";
 
-const String ApiKey = "AIzaSyBkXNENWOL0a2O5OXMPyZACFdU5PP086R0";
+const String ApiKey = "YOUR-API-KEY";
 
 #endif  // _NETWORK_PARAM_H
